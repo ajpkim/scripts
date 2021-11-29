@@ -24,8 +24,8 @@ done
 #Image paths
 if [ "$arg_image" ]; then
     BKG_IMG="$arg_image"  # Passed image
-elif [ -f "/home/ajpkim/Pictures/bg-img/i3lock.png" ]; then
-    BKG_IMG="/home/ajpkim/Pictures/bg-img/i3lock.png"  # Default image
+elif [ -f "$HOME/pictures/bg-img/i3lock.png" ]; then
+    BKG_IMG="$HOME/pictures/bg-img/i3lock.png"  # Default image
 else
     BKG_IMG="$(dirname "$BASH_SOURCE")/img/background.png"  # Fallback to current folder
 fi
@@ -67,7 +67,7 @@ do
     SCREEN_HEIGHT=${BASH_REMATCH[2]}
     SCREEN_X=${BASH_REMATCH[3]}
     SCREEN_Y=${BASH_REMATCH[4]}
-    
+
     CACHE_IMG="$CACHE_FOLDER""$SCREEN_WIDTH"x"$SCREEN_HEIGHT"."$MD5_BKG_IMG".png
     ## if cache for that screensize doesnt exist
     if ! [ -e $CACHE_IMG ]
