@@ -1,3 +1,3 @@
 #!/bin/bash
 
-paplay $CHIME && sleep 0.1 && paplay $CHIME && sleep 0.1 && paplay $CHIME
+paplay $CHIME && sleep 0.05 && paplay $CHIME && sleep 0.05 && paplay $CHIME
