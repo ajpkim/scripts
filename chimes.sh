@@ -1,3 +1,5 @@
 #!/bin/bash
 
-paplay $CHIME && sleep 0.05 && paplay $CHIME && sleep 0.05 && paplay $CHIME
+CHIME="/usr/share/sounds/freedesktop/stereo/complete.oga"
+
+paplay $CHIME && paplay $CHIME && paplay $CHIME
