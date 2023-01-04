@@ -24,8 +24,8 @@ done
 #Image paths
 if [ "$arg_image" ]; then
     BKG_IMG="$arg_image"  # Passed image
-elif [ -f "$HOME/pictures/bg-img/i3lock.png" ]; then
-    BKG_IMG="$HOME/pictures/bg-img/i3lock.png"  # Default image
+elif [ -f "$HOME/Pictures/bg-img/i3lock.png" ]; then
+    BKG_IMG="$HOME/Pictures/bg-img/i3lock.png"  # Default image
 else
     BKG_IMG="$(dirname "$BASH_SOURCE")/img/background.png"  # Fallback to current folder
 fi
