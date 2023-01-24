@@ -13,4 +13,4 @@ M2_mode="1920x1080"
 
 xrandr --output $M1 --mode $M1_mode --right-of $M0 --set audio off
 # xrandr --output $M2 --mode $M2_mode --right-of $M1 --set audio off  --rotate right
-xrandr --output $M2 --mode $M2_mode --right-of $M1 --set audio off
+xrandr --output $M2 --mode $M2_mode --right-of $M1 --set audio off --rotate right
