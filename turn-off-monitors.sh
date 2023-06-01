@@ -18,3 +18,6 @@ do
 	xrandr --output $monitor --off
     fi
 done
+
+
+feh --bg-scale $HOME/Pictures/bg-img/wallpaper.jpg
