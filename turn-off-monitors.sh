@@ -20,4 +20,4 @@ do
 done
 
 
-feh --bg-scale $HOME/Pictures/bg-img/wallpaper.jpg
+feh --bg-scale $HOME/pictures/bg-img/wallpaper.jpg

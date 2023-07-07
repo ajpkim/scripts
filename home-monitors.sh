@@ -14,4 +14,4 @@ M2_MODE="2560x1440"
 xrandr --output $M1  --mode $M1_MODE --left-of $M0 --set audio off
 xrandr --output $M2 --mode $M2_MODE --left-of $M1 --set audio off --rotate left
 
-feh --bg-scale $HOME/Pictures/bg-img/wallpaper.jpg
+feh --bg-scale $HOME/pictures/bg-img/wallpaper.jpg
