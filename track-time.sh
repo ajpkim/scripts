@@ -1,7 +1,12 @@
 #!/bin/bash
 
-# WEEK=$(date +"%U")
 YEAR=$(date +"%Y")
-WEEK_FILE="$HOME/time/2023-time-tracking.ods"
-echo $WEEK_FILE
+ISO_WEEK=$(date +%V)
+WEEK_FILE="$HOME/data/time/$YEAR-w$ISO_WEEK.ods"
+TEMPLATE="$HOME/data/time/time-template.ods"
+
+if [ ! -f "$WEEK_FILE" ]; then
+    cp "$TEMPLATE" "$WEEK_FILE"
+fi
+
 libreoffice $WEEK_FILE
