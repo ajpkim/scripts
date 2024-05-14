@@ -8,9 +8,7 @@ fi
 
 DIRECTORY="$1"
 
-# Navigate to the specified directory
 cd "$DIRECTORY" || { echo "Directory not found!"; exit 1; }
-
 
 for oldname in *; do
     # Convert the filename to lowercase, replace spaces and hyphens with underscores
