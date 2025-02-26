@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Base office external monitor setup (2023-06)
+# Base NH external monitor setup (2024-06)
 M0="eDP-1"
-M1="DP-3"
-M2="DP-4-1"
+M1="DP-1-1"
+M2="DP-4"
 
 M1_MODE="3840x2160"
-M2_MODE="2560x1440"
+M2_MODE="3840x2160"
 
 ## Turn off monitors to reset.
 . ~/scripts/turn-off-monitors.sh
